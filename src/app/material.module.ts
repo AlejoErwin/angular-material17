@@ -6,10 +6,12 @@ import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
     imports: [
-        MatButtonModule
+        MatButtonModule,
+        MatTableModule
     ],
     exports: [
-        MatButtonModule
+        MatButtonModule,
+        MatTableModule
     ],
 
 })
